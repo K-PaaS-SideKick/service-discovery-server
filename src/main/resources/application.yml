@@ -1,0 +1,11 @@
+server:
+  port: 1577
+spring:
+  application:
+    name: discovery-service
+
+# default values are set 'true' to let this app work as eureka client
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
